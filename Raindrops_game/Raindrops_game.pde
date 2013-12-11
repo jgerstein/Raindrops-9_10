@@ -10,7 +10,7 @@ void setup() {
 }
 
 void draw() {
-  background(200,230,255);
+  background(0,30,55);
   for (int i = 0; i < r.length; i++) {
     r[i].display();
     r[i].drop();
